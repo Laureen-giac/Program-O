@@ -51,6 +51,17 @@ local.properties
 # PDT-specific
 .buildpath
 
+#################
+## IntelliJ
+#################
+
+## Ignore intellij files
+
+# User-specific files
+*.idea
+.idea
+.idea/*
+*.iml
 
 #################
 ## Visual Studio

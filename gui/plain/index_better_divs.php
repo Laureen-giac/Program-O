@@ -3,7 +3,7 @@
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
-  * Version: 2.1.5
+  * Version: 2.2.1
   * FILE: gui/plain/index_better_divs.php
   * AUTHOR: Elizabeth Perreau and Dave Morton
   * DATE: 19 JUNE 2012
@@ -47,7 +47,7 @@
   <head>
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <style type="text/css">
     #output {
       overflow: auto;

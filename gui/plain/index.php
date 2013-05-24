@@ -3,7 +3,7 @@
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
-  * Version: 2.1.5
+  * Version: 2.2.1
   * FILE: gui/plain/index.php
   * AUTHOR: Elizabeth Perreau and Dave Morton
   * DATE: 19 JUNE 2012
@@ -37,7 +37,7 @@
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 
-		  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Program O AIML PHP Chatbot</title>
 		<meta name="Description" content="A Free Open Source AIML PHP MySQL Chatbot called Program-O. Version2" />
 		<meta name="keywords" content="Open Source, AIML, PHP, MySQL, Chatbot, Program-O, Version2" />

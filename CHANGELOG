@@ -1,14 +1,27 @@
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
-  * Version: 2.1.5
+  * Version: 2.2.1
   * FILE: CHANGELOG
   * AUTHOR: Elizabeth Perreau and Dave Morton
-  * DATE: 02-13-2013
+  * DATE: 11-05-2013
   * DETAILS: Describes the version changes in Program O
   ***************************************/
 
 Version History:
+2.2.1   Major bug fixes
+            1.) Fixed a bug that was mangling Unicode characters while removing punctuation
+            2.) Fixed a bug where the chatbot's debug level wasn't being used
+            3.) re-wrote several functions to be more efficient
+
+
+2.2.0   Foreign Langague Support
+            1.) Program O now support foreign languages! YEEHAAAA
+            2.) Tested against, Russian, Arabic, Turkish, French, Thai, Greek, Chinese
+            3.) Converted all character coding both internal and external to UTF-8
+            4.) Added the correct XML header to the display conversation functions for xml requests
+            5.) Updated the XML example gui to use simpleXML to send requests to the bot
+
 
 2.1.5   Bug fixes/merge to "Master" branch
             1.) Corrected a bug that improperly ordered the collections of words gathered in <pattern> and <that> tags

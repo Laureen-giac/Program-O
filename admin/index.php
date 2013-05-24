@@ -1,18 +1,24 @@
 <?PHP
-//-----------------------------------------------------------------------------------------------
-//My Program-O Version 2.1.5
-//Program-O  chatbot admin area
-//Written by Elizabeth Perreau and Dave Morton
-//Aug 2011
-//for more information and support please visit www.program-o.com
-//-----------------------------------------------------------------------------------------------
-// index.php
+/***************************************
+  * http://www.program-o.com
+  * PROGRAM O
+  * Version: 2.2.1
+  * FILE: index.php
+  * AUTHOR: Elizabeth Perreau and Dave Morton
+  * DATE: 05-11-2013
+  * DETAILS: Gateway to the admin functions for the script
+  ***************************************/
+
 
   $thisFile = __FILE__;
   if (!file_exists('../config/global_config.php')) header('location: ../install/install_programo.php');
   require_once('../config/global_config.php');
 
-  //if (file_exists(_INSTALL_PATH_ . 'upgrade.php')) require_once(_INSTALL_PATH_ . 'upgrade.php');
+  mb_internal_encoding($charset);
+  mb_http_input($charset);
+  mb_http_output($charset);
+  mb_detect_order($charset);
+  mb_regex_encoding($charset);
 
   error_reporting(E_ALL);
   ini_set('log_errors', true);
@@ -49,7 +55,10 @@
   //load shared files
   require_once(_LIB_PATH_ . 'db_functions.php');
   require_once(_LIB_PATH_ . 'error_functions.php');
+  require_once(_LIB_PATH_ . 'misc_functions.php');
   require_once(_LIB_PATH_ . 'template.class.php');
+
+
   # Load the template file
   $thisPath = dirname(__FILE__);
   $template = new Template("$thisPath/default.page.htm");
@@ -62,6 +71,7 @@
 
 # Build page sections
 # ordered here in the order that the page is constructed
+  $page_head     = $template->getSection('Logo');
   $logo          = $template->getSection('Logo');
   $titleSpan     = $template->getSection('TitleSpan');
   $main          = $template->getSection('Main');
@@ -158,6 +168,7 @@
   $upperScripts .= ($hide_logo == 'HideLogoCSS') ? $template->getSection('HideLogoCSS') : '';
 
   # Build page content from the template
+
   $content  = $template->getSection('Header');
   #$content .= "hide_logo = $hide_logo";
   $content .= $template->getSection('PageBody');
@@ -172,6 +183,7 @@
    $content variable directly, rather than change it and then return it.
 */
   $searches = array(
+                    '[charset]'       => $charset,
                     '[myPage]'        => $curPage,
                     '[pageTitle]'     => $pageTitle,
                     '[styleSheet]'    => $styleSheet,
@@ -212,6 +224,7 @@
   $content = str_replace('[divDecoration]', $divDecoration, $content);
   $content = str_replace('[blank]', '', $content);
   if(function_exists('replaceTags')) replaceTags($content); // Handle any extra replacement tags, as needed.
+
   exit($content);
 
   function makeLinks($section, $linkArray, $spaces = 2) {
@@ -486,7 +499,7 @@ endFooter;
 
   function getCurrentVersion()
   {
-    $url = 'https://api.github.com/repos/Dave-Morton/Program-O/contents/version.txt';
+    $url = 'https://api.github.com/repos/Program-O/Program-O/contents/version.txt';
     $out = false;
     if (function_exists('curl_init'))
     {
@@ -499,10 +512,10 @@ endFooter;
       if (false === $out) trigger_error('Not sure what it is, but there\'s a problem with checking the current version on GitHub. Maybe this will help: "' . curl_error($ch) . '"');
       curl_close($ch);
       $repoArray = json_decode($out, true);
-      save_file(_LOG_PATH_ . 'repoArray.txt', print_r($repoArray, true));
+      //save_file(_LOG_PATH_ . 'repoArray.txt', print_r($repoArray, true));
       $versionB64 = $repoArray['content'];
       $version = base64_decode($versionB64);
-      save_file(_DEBUG_PATH_ . 'version.txt', "out = " . print_r($out, true) . "\r\nVersion = $versionB64 = $version");
+      #save_file(_DEBUG_PATH_ . 'version.txt', "out = " . print_r($out, true) . "\r\nVersion = $versionB64 = $version");
       $out = $version;
     }
     return $out;

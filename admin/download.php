@@ -1,7 +1,7 @@
 
 <?PHP
 //-----------------------------------------------------------------------------------------------
-//My Program-O Version 2.1.5
+//My Program-O Version 2.2.1
 //Program-O  chatbot admin area
 //Written by Elizabeth Perreau and Dave Morton
 //Aug 2011
@@ -94,7 +94,7 @@ else {
 
   function getAIMLByFileName($filename) {
     if ($filename == 'null') return "You need to select a file to download.";
-    global $dbn,$botmaster_name, $default_charset;
+    global $dbn,$botmaster_name, $charset;
     $bmnLen = strlen($botmaster_name) - 2; // The "- 2" accommodates the extra 2 spaces from the year.
     $bmnSearch = str_pad('[bm_name]',$bmnLen);
     $categoryTemplate = '<category><pattern>[pattern]</pattern>[that]<template>[template]</template></category>';
@@ -109,7 +109,7 @@ else {
     chdir($curPath);
     $fileContent = file_get_contents('./AIML_Header.dat');
     $fileContent = str_replace('[year]', date('Y'), $fileContent);
-    $fileContent = str_replace('[charset]', $default_charset, $fileContent);
+    $fileContent = str_replace('[charset]', $charset, $fileContent);
     $fileContent = str_replace($bmnSearch, $botmaster_name, $fileContent);
     $curDate = date('m-d-Y', time());
     $cdLen = strlen($curDate);
@@ -128,7 +128,7 @@ else {
       $fileContent .= "\r\n\r\n<!-- SQL = $sql -->\r\n\r\n";
       $result = mysql_query($sql,$dbConn) or trigger_error('Cannot obtain the AIML categories from the DB. Error = ' . mysql_error());
       while ($row = mysql_fetch_assoc($result)) {
-        $pattern = strtoupper($row['pattern']);
+        $pattern = mb_strtoupper($row['pattern']);
         $template = str_replace("\r\n",'',$row['template']);
         $template = str_replace("\n",'',$row['template']);
         $newLine = str_replace('[pattern]',$pattern, $categoryTemplate);

@@ -1,6 +1,6 @@
 <?php
 //-----------------------------------------------------------------------------------------------
-//My Program-O Version 2.1.5
+//My Program-O Version 2.2.1
 //Program-O  chatbot admin area
 //Written by Elizabeth Perreau and Dave Morton
 //Aug 2011
@@ -46,7 +46,7 @@
     }
     $out = $template->getSection('ChatDemo');
     $out = str_replace('[pageSource]', $url, $out);
-    $out = str_replace('[format]', strtoupper($format), $out);
+    $out = str_replace('[format]', mb_strtoupper($format), $out);
     return $out;
   }
 ?>

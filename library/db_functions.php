@@ -3,7 +3,7 @@
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
-  * Version: 2.1.5
+  * Version: 2.2.1
   * FILE: library/db_functions.php
   * AUTHOR: Elizabeth Perreau and Dave Morton
   * DATE: MAY 4TH 2011
@@ -24,6 +24,8 @@
     $host = (!empty ($dbPort) and $dbPort != 3306) ? "$dbh:$dbPort" : $dbh;
     // add port selection if not the standard port number
     $con = mysql_connect($host, $dbu, $dbp) or trigger_error('Couldn\'t connect to the DB. Error = ' . mysql_error());
+    mysql_set_charset('utf8');
+    mysql_query('SET NAMES UTF8');
     $x = mysql_select_db($dbn) or trigger_error('Couldn\'t select the DB. Error = ' . mysql_error());
     return $con;
   }

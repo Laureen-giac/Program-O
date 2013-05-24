@@ -1,5 +1,5 @@
 /*
-My Program-O Version 2.1.5
+My Program-O Version 2.2.1
 Program-O  chatbot admin area
 Written by Elizabeth Perreau and Dave Morton
 Aug 2011
@@ -673,7 +673,7 @@ div#AIML_List {
   padding: 12px;
   text-align: left;
   text-indent: 0;
-  width: auto%;
+  width: auto;
   max-height: 300px;
   overflow: auto;
 }

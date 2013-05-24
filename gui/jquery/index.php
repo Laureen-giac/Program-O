@@ -23,7 +23,7 @@ $convo_id = session_id();
     <link rel="stylesheet" type="text/css" href="main.css" media="all" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Program O AIML PHP Chatbot</title>
     <meta name="Description" content="A Free Open Source AIML PHP MySQL Chatbot called Program-O. Version2" />
     <meta name="keywords" content="Open Source, AIML, PHP, MySQL, Chatbot, Program-O, Version2" />
@@ -48,7 +48,7 @@ $convo_id = session_id();
         </p>
       </form>
     </div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-1.3.min.js"></script>
     <script type="text/javascript" >
      $(document).ready(function() {
       // put all your jQuery goodness in here.
