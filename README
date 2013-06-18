@@ -1,7 +1,7 @@
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
-  * Version: 2.2.1
+  * Version: 2.5.0
   * FILE: README
   * AUTHOR: Elizabeth Perreau and Dave Morton
   * DATE: 11-05-2013
@@ -18,7 +18,7 @@ Configuration
 ---------------------------------------------------------
 Program O supports the creation of multiple chatbots. The individual bots are configured
 from the admin area. Bot specific variables are stored in the database. Configuration
-of Program O itself is done in /config/global_config.php
+of Program O itself is done in /config/config.php
 
 Using the bot
 ---------------------------------------------------------
@@ -58,7 +58,7 @@ designed to only run once.
 
 Please note that the installer script will NOT create your database for you, nor will
 it install your bot's AIML files. The database, along with the username/password used to
-access it, needs to be created in advance. See the file FRESH_INSTALL_README.txt for more
+access it, needs to be created in advance. See the file FRESHINSTALL_README.txt for more
 information.
 
 After you create the database, and once you complete the installation process, simply go to
