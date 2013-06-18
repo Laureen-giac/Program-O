@@ -1,12 +1,12 @@
-  /***************************************
-  * http://www.program-o.com
-  * PROGRAM O
-  * Version: 2.5.0
-  * FILE: README
-  * AUTHOR: Elizabeth Perreau and Dave Morton
-  * DATE: 11-05-2013
-  * DETAILS: Gives an overview of the script, along with basic instructions on installation and use.
-  ***************************************/
+/****************************************************
+* Program O AIML Interpreter/Chatbot Engine
+* Version 3.0.0 - XML/PDO/Classes implementation
+* Written/Coded by Dave Morton & Liz Perreau
+* ©2012-2013 Elizabeth Perreau & Dave Morton
+* Written 06-18-2013
+* README
+* Gives an overview of the script, along with basic instructions on installation and use.
+****************************************************/
 
 Introduction
 ---------------------------------------------------------
