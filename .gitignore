@@ -1,0 +1,16 @@
+#################
+## Program O
+#################
+
+*.test
+logs/*.log
+logs/*.txt
+
+#################
+## IntelliJ
+#################
+
+## Ignore intellij files
+
+# User-specific files
+*.idea

@@ -1,0 +1,17 @@
+## ToDo
+
+*just about everything* - here is a short list:
+
+1.) Create the following:
+    a.) Base chatbot class
+    b.) DB class
+    c.) Some sort of interface for handling input/output
+
+2.) Design the database to handle stored AIML, bot settings, sessions and misc. data
+
+3.) Convert most of the current Program O base code from procedural to OOP
+
+
+
+
+
