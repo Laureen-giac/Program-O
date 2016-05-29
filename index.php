@@ -11,14 +11,15 @@
    ***************************************/
 
   $cwd = dirname(__FILE__);
-
-  require_once ('config/config.php');
   error_reporting(E_ALL);
   ini_set('log_errors', 1);
   ini_set('display_errors', 1);
+  require_once ('config/config.php');
   ini_set('error_log', LOG_PATH . 'base.error.log');
+  trigger_error('Test...');
 
-  
+
+
   $cfg = new Config();
   //$dbh = new DBobject();
   
