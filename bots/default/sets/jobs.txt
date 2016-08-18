@@ -1,0 +1,4 @@
+programmer
+clerk
+artist
+laborer

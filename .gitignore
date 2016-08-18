@@ -2,9 +2,10 @@
 ## Program O
 #################
 
-*.test
 logs/*.log
-logs/*.txt
+config/*.ini
+bots/*
+!bots/default
 
 #################
 ## IntelliJ
@@ -12,5 +13,5 @@ logs/*.txt
 
 ## Ignore intellij files
 
-# User-specific files
+## User-specific files
 *.idea

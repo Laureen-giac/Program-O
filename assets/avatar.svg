@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Face_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;background: transparent;" xml:space="preserve">
+  <style type="text/css">
+	  .irises{stroke:#none;fill:#46f;stroke-miterlimit:10;}
+    .whites{stroke:#774;fill:#FFF;stroke-width:0.5;}
+	  .eyeshine{fill:rgba(255,255,255,0.9);stroke:none;stroke-miterlimit:10;}
+  	.pupils{fill:#000;stroke:none;}
+	  .lips{fill:none;stroke:#CC0000;stroke-miterlimit:10;stroke-width:3;stroke-linecap:round;}
+    .hide{display: none;}
+    .outline{stroke: #E83; fill: #FFC; stroke-width: 15;}
+    .outline2{stroke: #E83; stroke-width: 15;}
+    .whiskers{stroke: #E83; stroke-width: 1;stroke-miterlimit:1;}
+    .debug {stroke:#000;stroke-width:1;fill:none;}
+    .align {display: none;}
+  </style>
+  <g id="avatar" transform="translate(6 50)">
+    <!-- Debug/align: -->
+    <g id="Right_Ear" transform="translate(120 70) rotate(0 60 190)">
+      <circle class="outline" cx="50" cy="0" r="50" />
+      <path d="M 0 0 L0 170" class="outline2"/>
+      <path d="M 100 0 L100 170" class="outline2"/>
+      <rect x="7.5" y="0" width="85" height="150" style="stroke: none; fill: #FFC;"/>
+    </g>
+    <g id="Left_Ear" transform="translate(280 70)">
+      <circle class="outline" cx="50" cy="0" r="50" />
+      <path d="M 0 0 L0 170" class="outline2"/>
+      <path d="M 100 0 L100 170" class="outline2"/>
+      <rect x="7.5" y="0" width="85" height="150" style="stroke: none; fill: #FFC;"/>
+    </g>
+    <g id="Head" transform="translate(120 80)">
+      <ellipse class="outline" cx="128" cy="224" rx="160" ry="120"/>
+    </g>
+    <g id="Nose" transform="translate(250 325)">
+      <polygon class="whiskers" points="0,4 -15,-17 15,-17"/>
+      <path style="fill: none; stroke: #000; stroke-width: 2" d="M1 0 a 9 9 0 0 0 10 12"/>
+      <path style="fill: none; stroke: #000; stroke-width: 2" d="M-1 0 a 9 9 0 0 1 -10 12"/>
+    </g>
+    <g id="Mouth" transform="translate(250 365)">
+      <path id="lips" class="lips" d="M-50 0 A0 0 0 0 0 0 0 A0 0 0 0 0 50 0"/>
+    </g>
+    <g id="Eyes" transform="translate(125 120)">
+      <g id="Left_Eye" transform="translate(50 150)">
+        <ellipse class="whites" cx="0" cy="0" rx="25" ry="29"/>
+        <ellipse class="irises" cx="0" cy="0" rx="16" ry="20"/>
+        <ellipse class="pupils" cx="0" cy="0" rx="8" ry="10"/>
+        <ellipse class="eyeshine" cx="6" cy="-8" rx="3" ry="4.6" transform="rotate(9)"/>
+      </g>
+      <g id="Right_Eye" transform="translate(200 150)">
+        <ellipse class="whites" cx="0" cy="0" rx="25" ry="29"/>
+        <ellipse class="irises" cx="0" cy="0" rx="16" ry="20"/>
+        <ellipse class="pupils" cx="0" cy="0" rx="8" ry="10"/>
+        <ellipse class="eyeshine" cx="6" cy="-8" rx="3" ry="4.6" transform="rotate(9)"/>
+      </g>
+    </g>
+  </g>
+  <g id="align_marks" class="align">
+    <path id="hCenter" class="debug" d="M256 0 v 512"/>
+    <path id="hCenter" class="debug" d="M206 0 v 512"/>
+    <path id="hCenter" class="debug" d="M306 0 v 512"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+bad_javascript:JSFAILED
+js_enabled:true
+unknown_history_item:unknown
+default_bot_response:I really don't know how to respond to that.
+error_bot_response:Something is wrong with my brain.
+schedule_error:I'm unable to schedule that event.
+system_failed:Failed to execute system command.
+default_get:unknown
+default_property:unknown
+default_map:unknown
+default_Customer_id:unknown
+default_bot_name:Morti
+default_that:unknown
+default_topic:unknown
+default_list_item:NIL
+undefined_triple:NIL
+unbound_variable:unknown
+template_failed:Template failed.
+too_much_recursion:Too much recursion in AIML
+too_much_looping:Too much looping in AIML
+blank_template:blank template
+null_input:NORESP
+null_star:nullstar

@@ -1,0 +1,24 @@
+url:http://www.geekcavecreations.com
+name:Morti
+firstname:Morti
+middlename:
+lastname: 
+fullname:Morti
+email:dmorton@geekcavecreations.com
+gender:male
+botmaster:Dave Morton
+organization:Geek Cave Creations
+version:1.5
+birthplace:Windurst
+job:Black Mage (level 75)
+species:Tarutaru
+birthday:May 14
+birthdate:May 14, 2010
+sign:STOP!
+logo:<img src="http://www.geekcavecreations.com/images/mrmortimer_FFXIAHi.jpg" width="128"/>
+religion:Um...
+default-get:unknown
+default-property:unknown
+default-map:unknown
+learn-filename:morti-learn.aiml
+

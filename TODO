@@ -2,14 +2,13 @@
 
 *just about everything* - here is a short list:
 
-1.) Create the following:
-    a.) Base chatbot class
-    b.) DB class
-    c.) Some sort of interface for handling input/output
+1.) Convert Program AB base classes to use with Program O [Done]
 
-2.) Design the database to handle stored AIML, bot settings, sessions and misc. data
+2.) Separate the "brain" into discrete sections (e.g. properties, AIML, etc.)
 
-3.) Convert most of the current Program O base code from procedural to OOP
+3.) Improve performance by integrating both memcache and APCu into the core code
+
+4.) just about everything else
 
 
 

@@ -1,0 +1,272 @@
+Birmingham:Alabama
+Huntsville:Alabama
+Mobile:Alabama
+Montgomery:Alabama
+Anchorage:Alaska
+Chandler:Arizona
+Gilbert:Arizona
+Glendale:Arizona
+Mesa:Arizona
+Peoria:Arizona
+Phoenix:Arizona
+Scottsdale:Arizona
+Tempe:Arizona
+Tucson:Arizona
+Little Rock:Arkansas
+Anaheim:California
+Antioch:California
+Bakersfield:California
+Berkeley:California
+Burbank:California
+Chula Vista:California
+Concord:California
+Corona:California
+Costa Mesa:California
+Daly City:California
+Downey:California
+El Monte:California
+Elk Grove:California
+Escondido:California
+Fairfield:California
+Fontana:California
+Fremont:California
+Fresno:California
+Fullerton:California
+Glendale:California
+Hayward:California
+Huntington Beach:California
+Inglewood:California
+Irvine:California
+Lancaster:California
+Long Beach:California
+Los Angeles:California
+Modesto:California
+Moreno Valley:California
+Norwalk:California
+Oakland:California
+Oceanside:California
+Ontario:California
+Orange:California
+Oxnard:California
+Palmdale:California
+Pasadena:California
+Rancho Cucamonga:California
+Richmond:California
+Riverside:California
+Roseville:California
+Sacramento:California
+Salinas:California
+San Bernardino:California
+San Buenaventura (Ventura):California
+San Diego:California
+San Francisco:California
+San Jose:California
+Santa Ana:California
+Santa Clara:California
+Santa Clarita:California
+Santa Rosa:California
+Simi Valley:California
+Stockton:California
+Sunnyvale:California
+Thousand Oaks:California
+Torrance:California
+Vallejo:California
+Victorville:California
+Visalia:California
+West Covina:California
+Arvada:Colorado
+Aurora:Colorado
+Colorado Springs:Colorado
+Denver:Colorado
+Fort Collins:Colorado
+Lakewood:Colorado
+Pueblo:Colorado
+Thornton:Colorado
+Westminster:Colorado
+Bridgeport:Connecticut
+Hartford:Connecticut
+New Haven:Connecticut
+Stamford:Connecticut
+Waterbury:Connecticut
+Washington:District of Columbia
+Cape Coral:Florida
+Clearwater:Florida
+Coral Springs:Florida
+Fort Lauderdale:Florida
+Gainesville:Florida
+Hialeah:Florida
+Hollywood:Florida
+Jacksonville:Florida
+Miami:Florida
+Miami Gardens:Florida
+Miramar:Florida
+Orlando:Florida
+Palm Bay:Florida
+Pembroke Pines:Florida
+Pompano Beach:Florida
+Port St. Lucie:Florida
+St. Petersburg:Florida
+Tallahassee:Florida
+Tampa:Florida
+Athens:Georgia
+Atlanta:Georgia
+Augusta:Georgia
+Columbus:Georgia
+Savannah:Georgia
+Honolulub[›]:Hawaii
+Boise:Idaho
+Aurora:Illinois
+Chicago:Illinois
+Elgin:Illinois
+Joliet:Illinois
+Naperville:Illinois
+Peoria:Illinois
+Rockford:Illinois
+Springfield:Illinois
+Evansville:Indiana
+Fort Wayne:Indiana
+Indianapolis:Indiana
+South Bend:Indiana
+Cedar Rapids:Iowa
+Davenport:Iowa
+Des Moines:Iowa
+Kansas City:Kansas
+Olathe:Kansas
+Topeka:Kansas
+Wichita:Kansas
+Lexington:Kentucky
+Louisville:Kentucky
+Baton Rouge:Louisiana
+Lafayette:Louisiana
+New Orleans:Louisiana
+Shreveport:Louisiana
+Bangor:Maine
+Brunswick:Maine
+Lewiston:Maine
+Portland:Maine
+Baltimore:Maryland
+Boston:Massachusetts
+Cambridge:Massachusetts
+Lowell:Massachusetts
+Springfield:Massachusetts
+Worcester:Massachusetts
+Ann Arbor:Michigan
+Detroit:Michigan
+Flint:Michigan
+Grand Rapids:Michigan
+Lansing:Michigan
+Sterling Heights:Michigan
+Warren:Michigan
+Minneapolis:Minnesota
+Rochester:Minnesota
+St. Paul:Minnesota
+Jackson:Mississippi
+Columbia:Missouri
+Independence:Missouri
+Kansas City:Missouri
+Springfield:Missouri
+St. Louis:Missouri
+Billings:Montana
+Lincoln:Nebraska
+Omaha:Nebraska
+Henderson:Nevada
+Las Vegas:Nevada
+North Las Vegas:Nevada
+Reno:Nevada
+Manchester:New Hampshire
+Elizabeth:New Jersey
+Jersey City:New Jersey
+Newark:New Jersey
+Paterson:New Jersey
+Albuquerque:New Mexico
+Buffalo:New York
+New York:New York
+Rochester:New York
+Syracuse:New York
+Yonkers:New York
+Cary:North Carolina
+Charlotte:North Carolina
+Fayetteville:North Carolina
+Greensboro:North Carolina
+High Point:North Carolina
+Raleigh:North Carolina
+Wilmington:North Carolina
+Winston-Salem:North Carolina
+Akron:Ohio
+Cincinnati:Ohio
+Cleveland:Ohio
+Columbus:Ohio
+Dayton:Ohio
+Toledo:Ohio
+Norman:Oklahoma
+Oklahoma City:Oklahoma
+Tulsa:Oklahoma
+Eugene:Oregon
+Gresham:Oregon
+Portland:Oregon
+Salem:Oregon
+Allentown:Pennsylvania
+Erie:Pennsylvania
+Philadelphia:Pennsylvania
+Pittsburgh:Pennsylvania
+Providence:Rhode Island
+Charleston:South Carolina
+Columbia:South Carolina
+Sioux Falls:South Dakota
+Chattanooga:Tennessee
+Clarksville:Tennessee
+Knoxville:Tennessee
+Memphis:Tennessee
+Murfreesboro:Tennessee
+Nashville:Tennessee
+Abilene:Texas
+Arlington:Texas
+Austin:Texas
+Beaumont:Texas
+Brownsville:Texas
+Carrollton:Texas
+Corpus Christi:Texas
+Dallas:Texas
+Denton:Texas
+El Paso:Texas
+Fort Worth:Texas
+Garland:Texas
+Grand Prairie:Texas
+Houston:Texas
+Irving:Texas
+Killeen:Texas
+Laredo:Texas
+Lewisville:Texas
+Lubbock:Texas
+McAllen:Texas
+McKinney:Texas
+Mesquite:Texas
+Midland:Texas
+Pasadena:Texas
+Plano:Texas
+Richardson:Texas
+Round Rock:Texas
+San Antonio:Texas
+Waco:Texas
+Wichita Falls:Texas
+Provo:Utah
+Salt Lake City:Utah
+West Jordan:Utah
+West Valley City:Utah
+Alexandria:Virginia
+Arlington:Virginia
+Chesapeake:Virginia
+Hampton:Virginia
+Newport News:Virginia
+Norfolk:Virginia
+Portsmouth:Virginia
+Richmond:Virginia
+Virginia Beach:Virginia
+Bellevue:Washington
+Seattle:Washington
+Spokane:Washington
+Tacoma:Washington
+Vancouver:Washington
+Green Bay:Wisconsin
+Madison:Wisconsin
+Milwaukee:Wisconsin
