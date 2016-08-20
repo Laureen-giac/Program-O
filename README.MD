@@ -2,8 +2,8 @@
 
 readme info:
 - Version:   3.0.0
-- Authors: Dave Morton
-- Date: May 28th, 2016
+- Authors: Dave Morton, Elizabeth Perreau and Brent Edds
+- Date: Aug. 19th, 2016
 
 
 ## Introduction
@@ -12,7 +12,19 @@ readme info:
 Program O Version 3 is an AIML interpretor written in PHP, but unlike previous versions,
 will (probably) not use a MySQL database to store the chatbot's information or AIML,
 though the option to use a database to store user/admin information will be available.
-But this is left to the administrator to set up and configure.
+
+## Features
+
+Program O version 3 will support the following features:
+    - AIML 2.0
+    - Multiple human languages (e.g. Englisih, Spanish, Japanese, Chinese, etc.)
+    - <sraix> and <oob> tags (with configuration)
+    - "Custom" AIML tags (e.g. <google>, <wiki>), now fully configurable in the admin
+    - Multiple PHP caching extensions (depending on what is available on the server)__†__
+
+__†__Note: If there are no PHP caching extensions available, Program O will implement it's
+own caching class, which while slower than other caching functions, will still improve
+performance over not using one at all
 
 ## Requirements
 

@@ -16,6 +16,7 @@
   ini_set('display_errors', 1);
   require_once ('config/config.php');
   ini_set('error_log', LOG_PATH . 'base.error.log');
+/*
 
   //$db = new DB($config->credentials);
   $referrer = '';
@@ -30,12 +31,13 @@
   $bot = new Bot($bot_name, $cfg, $debugLogger);
   //$brain = new Graphmaster($bot_name, 'test', $debugLogger);
 
-/*
   $cfg->setConfig('Test', 'foo','bat');
   $cfg->saveConfig();
-*/
   $debugLogger->logEntry(Logger::LOG_ALL, 'Script complete.', 'API.PHP:[no method or function]', __LINE__);
   header('content-type: text/plain');
   print_r($bot);
+*/
 
+$test = MemOptSwitcher::findBest();
+  echo $test->type;
 

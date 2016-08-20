@@ -21,14 +21,25 @@
     public static function findBest()
     {
       switch (true) {
-        case (extension_loaded('memcache')):
-          $out = new MemOptMemcache();
-          break;
         case (extension_loaded('memcashed')):
           $out = new MemOptMemcashed();
           break;
-        case (extension_loaded('APC')):
+        case (extension_loaded('memcache')):
+          $out = new MemOptMemcache();
+          break;
+        case (extension_loaded('apc')):
+          $out = new MemOptAPC();
+          break;
+        case (extension_loaded('apcu')):
+          $out = new MemOptAPCu();
+          break;
+        case (extension_loaded('redis')):
+          $out = new MemOptRedis();
+          break;
+        default:
+          $out = new MemOptCustom();
       }
+      return $out;
     }
   }
     
